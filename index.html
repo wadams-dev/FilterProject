@@ -9,6 +9,18 @@
   </head>
   <body>
     <h1 class="test">Hello, World!</h1>
+    <label for="blueColor">blue</label>
+    <input type="checkbox" id="blueColor" onclick="blueFilter()" />
+    <label for="yellowColor">yellow</label>
+    <input type="checkbox" id="yellowColor" onclick="yellowFilter()" />
+    <label for="greenColor">green</label>
+    <input type="checkbox" id="greenColor" onclick="greenFilter()" />
+
+    <div class="container">
+      <div class="item blue-item low">item #1</div>
+      <div class="item yellow-item medium">item #2</div>
+      <div class="item green-item high">item #3</div>
+    </div>
     <script src="js/index.js"></script>
   </body>
 </html>

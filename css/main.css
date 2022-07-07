@@ -1,3 +1,23 @@
-.test {
-  color: red;
+.container {
+  width: 100%;
+  padding: 5%;
+}
+.item {
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+}
+
+.blue-item {
+  background-color: blue;
+}
+
+.yellow-item {
+  background-color: yellow;
+}
+
+.green-item {
+  background-color: green;
 }
